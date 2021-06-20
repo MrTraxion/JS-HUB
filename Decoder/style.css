@@ -1,0 +1,86 @@
+:root {
+--cmdpFont: 'Inconsolata', monospace;
+--fontColor: rgba(37, 206, 43, 0.398);
+--bgColor: rgb(28, 28, 29);
+}
+body {
+  background-color: rgb(190, 194, 206);
+  margin: 0;
+  font-family: var(--cmdpFont);
+}
+p {
+  color: var(--fontColor)
+
+}
+
+
+.container {
+  position: absolute;
+   width: 52rem;
+   height: 60rem;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+.screen {
+  position: absolute;
+ background-color: var(--bgColor);
+ border-radius: 15px;
+  width: 52rem;
+  height: 52rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+.buttons {
+ margin-top: 54rem;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#b1, #b2, #b3 {
+  text-align: center;
+  align-items: center;
+}
+
+
+h3 {
+  font-weight: 550;
+  margin: 0;
+  padding-left: 4rem;
+  padding-top: 0.9rem;
+}
+
+.textfield {
+ width: 800px;
+
+  height: 800px;
+  
+  margin: 1rem;
+  word-wrap: break-word;
+}
+
+p {
+  
+ 
+  margin: 0;
+  padding: 0;
+}
+
+
+#b1, #b2, #b3, #b4{
+  height: 4rem;
+  width: 8rem;
+  border-radius: 10px;
+  background-color: var(--bgColor);
+  text-align: center;
+  color:rgb(190, 194, 206);
+  
+  
+}
+
